@@ -16,7 +16,6 @@ import Menu from './pages/Menu';
 function App() {
   return (
    <Router>
-    <Home/>
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/menu" element={<Menu/>}/>
