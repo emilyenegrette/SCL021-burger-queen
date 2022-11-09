@@ -4,19 +4,25 @@
     "title": "Brie Sandwich",
     "description": "Sandwich relleno de queso Brie, rúcula, tomates y jamón serrano (se puede modificar para menú vegetariano)",
     "img": "assets/menu/brie-sandwich.png",
-    "price": "$5000 CLP"
+    "adicionalQueso": "$1",
+    "adicionalHuevo": "$1",
+    "price": "$7"
   },
   {
     "title":"Seeds Sandwich",
     "description": "Sandwich de semillas tipo bagel relleno de huevo, espinaca y tomate seco",
     "img": "assets/menu/veggie-sandwich.png",
-    "price": "$4500 CLP" 
+    "adicionalQueso": "$1",
+    "adicionalHuevo": "$1",
+    "price": "$6" 
   },
   {
     "title":"Tomato Sandwich",
     "description": "Sandwich relleno de nuestro queso mozarella, tomates secos y nuestra deliciosa pesto", 
     "img": "assets/menu/sandwich-tomate.png",
-    "price": "$4000 CLP"
+    "adicionalQueso": "$1",
+    "adicionalHuevo": "$1",
+    "price": "$6"
   }
 ],
 "Waffles": [
@@ -24,45 +30,45 @@
     "title": "Banana Waffle",
     "description": "Waffles con topping de banana, chispas de chocolate y syrup de chocolate",
     "img": "assets/menu/waffle-banana.png",
-    "price": "$4500 CLP" 
+    "price": "$7" 
   },
   {
     "title":"Strawberry Waffle",
     "description": "Waffles con topping de frutos del bosque, miel y crema chantilli",
     "img": "assets/menu/waffle-fresa.png",
-    "price": "$5000 CLP"
+    "price": "$7"
   },
   {
     "title":"Maple Waffle",
     "description": "El clasico de la casa. Waffle con topping de maple decorado con mantequilla",
     "img": "assets/menu/waffle-maple.png",
-    "price": "$4000 CLP" 
+    "price": "$5" 
   }
 ],
 "Postres": [
   {
-    "title": "Torta Caramel",
+    "title": "Caramel Cake",
     "description": "Bizcocho de vainilla relleno de caramelo y crema de mantequilla con topping de merengues",
     "img": "assets/menu/torta-caramel.png",
-    "price": "$4500 CLP" 
+    "price": "$5" 
   },
   {
     "title":"Strawberry Cheesecake",
     "description": "Cheesecake de frutilla, relleno con trozos de frutilla y nuestra base de galletas",
     "img": "assets/menu/cheesecake-fresa.png",
-    "price": "$5000 CLP" 
+    "price": "$5" 
   },
   {
     "title":"Pie de Limon",
     "description": "Base de galletas con relleno cremoso de mousse de limon",
     "img": "assets/menu/pie-de-limon.png",
-    "price": "$3500 CLP" 
+    "price": "$4" 
   },
   {
     "title":"Brownie",
     "description": "Bizcocho de chocolate denso y cremoso, decorado con chispas de chocolate",
     "img": "assets/menu/brownie.png",
-    "price": "$4000 CLP" 
+    "price": "$4" 
   }
 ],
 "Cafes": [
@@ -70,25 +76,25 @@
     "title": "Dalgona Coffee",
     "description": "Cafe batido en una mezcla de agua hervida, azucar y cafe, con leche tibia",
     "img": "assets/menu/dalgona.png",
-    "price": "$3500 CLP" 
+    "price": "$5" 
   },
   {
     "title":"Lotus Iced Coffee",
     "description": "Nuestro cafe latte vainilla combinado con las famosas galletas lotus y cubos de hielo",
     "img": "assets/menu/cafe-lotus.png",
-    "price": "$4000 CLP" 
+    "price": "$5" 
   },
   {
     "title":"Caramel Coffee",
     "description": "Latte vainilla con topping de nuestro syrup de caramelo salado y cubos de hielo",
     "img": "assets/menu/frappu-caramel.png",
-    "price": "$4000 CLP" 
+    "price": "$6" 
   },
   {
     "title":"Mocaccino",
     "description": "Cafe caliente estilo capuccino con tonos de chocolate, leche tibia y malvaviscos",
     "img": "assets/menu/mocaccino.png",
-    "price": "$3500 CLP" 
+    "price": "$4" 
   }
 ]
 }

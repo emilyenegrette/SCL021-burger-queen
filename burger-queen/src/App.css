@@ -98,6 +98,7 @@ footer{
 
 .btn-enviar{
   padding:1em 3em; 
+  width: 10%;
   background: #FF592C;
   border-radius: 5px;
   border: 0;
@@ -106,6 +107,12 @@ footer{
   margin-bottom: 1.5em;
   transition: .5s;
   text-decoration: none; 
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-enviar:hover{
@@ -120,11 +127,19 @@ footer{
 }
 
 .card{
-  display: block;
-  width: 0 5em;
-  height: 4em;
-  background-color: #D9D9D9;
-  padding: 10%;
+  width: 50%;
+  padding: 20%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  padding:  20px
+}
+
+.card2{
+    width: 50%;
+    padding: 20%;
+    display: flex;
+    padding:  20px
 }
 
 .card .img-postres{
@@ -139,4 +154,27 @@ footer{
   color: white;
   transition: .5s;
   text-decoration: none;
+}
+
+.list2{
+  padding: 5%;
+  width: 50%;
+  background-color: #D9D9D9;
+}
+
+.list{
+  padding: 5%;
+  width: 50%;
+  background-color: #D9D9D9;
+}
+
+/* Preparacion */
+
+.wait{
+  background-size: contain;
+  width: 50%
+}
+.waiting{
+
+  width: 50%;
 }
