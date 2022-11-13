@@ -14,69 +14,82 @@ function Menu(){
   return(
     <section>
       <nav>
+        <div className="alignNav">
         <img src="/assets/logo-bb.png" alt="logo" className="logoHome"></img>
+        <div className="carrito">
+          <img src="/assets/carrito-de-compras.png" alt="carrito" className="img-carrito"></img>
+        </div>
+        </div>
       </nav>
           <div className="container-menu">
-            <h3 className="tittle-menu">Sandwich</h3>
-              {productos.Sandwich.map(e => 
-                <div className="card">
-                  <div className="img-sandwich" style={{background:`url(${e.img}) center no-repeat`}}></div>
-                    <div className="list">
-                    <ul>
-                      <li><strong>{e.title}</strong></li>
-                      <li>{e.description}</li>
-                      <li>{e.price}</li>
-                    </ul>
-                   <button className="btn-agregar">- Agregar +</button>
-                   </div>
-                  </div>
-              )}   
-            <h3 className="tittle-menu">Waffles</h3>
-              {productos.Waffles.map(e => 
-                <div className="card2">
-                  <div className="img-waffles" style={{background:`url(${e.img}) center no-repeat`}}></div>
-                    <div className="list2">
-                    <ul>
-                      <li><strong>{e.title}</strong></li>
-                      <li>{e.description}</li>
-                      <li>{e.price}</li>
-                    </ul>
-                   <button className="btn-agregar">- Agregar +</button>
+            <div class="column">
+              <h3 className="tittle-menu">Sandwich</h3>
+                {productos.Sandwich.map(e => 
+                  <div className="card">
+                    <div className="img-menu" style={{background:`url(${e.img}) center no-repeat`}}></div>
+                      <div className="list">
+                        <ul>
+                          <li><strong>{e.title}</strong></li>
+                          <li>{e.description}</li>
+                          <li>{e.price}</li>
+                        </ul>
+                        <button className="btn-agregar">Agregar</button>
+                      </div>
                     </div>
-                  </div>    
-              )} 
-            <h3 className="tittle-menu">Postres</h3>
+                )}
+
+                <h3 className="tittle-menu">Postres</h3>
               {productos.Postres.map(e => 
                 <div className="card">
-                  <div className="img-postres" style={{background:`url(${e.img}) center no-repeat`}}></div>
+                  <div className="img-menu" style={{background:`url(${e.img}) center no-repeat`}}></div>
                     <div className="list">
                     <ul>
                       <li><strong>{e.title}</strong></li>
                       <li>{e.description}</li>
                       <li>{e.price}</li>
                     </ul>
-                   <button className="btn-agregar">- Agregar +</button>
+                   <button className="btn-agregar">Agregar</button>
                     </div>
                   </div>
+                )} 
+
+            </div>
+            <div class="column">
+
+              <h3 className="tittle-menu">Waffles</h3>
+                {productos.Waffles.map(e => 
+                  <div className="card">
+                    <div className="img-menu" style={{background:`url(${e.img}) center no-repeat`}}></div>
+                      <div className="list">
+                      <ul>
+                        <li><strong>{e.title}</strong></li>
+                        <li>{e.description}</li>
+                        <li>{e.price}</li>
+                      </ul>
+                    <button className="btn-agregar">Agregar</button>
+                      </div>
+                    </div>    
                 )}
-            <h3 className="tittle-menu">Cafes</h3>
+
+                <h3 className="tittle-menu">Cafes</h3>
               {productos.Cafes.map(e => 
-                <div className="card2">
-                  <div className="img-cafes" style={{background:`url(${e.img}) center no-repeat`}}></div>
-                    <div className="list2">
+                <div className="card">
+                  <div className="img-menu" style={{background:`url(${e.img}) center no-repeat`}}></div>
+                    <div className="list">
                     <ul>
                       <li><strong>{e.title}</strong></li>
                       <li>{e.description}</li>
                       <li>{e.price}</li>
                     </ul>
                     <div className="btn">
-                   <button className="btn-agregar">- Agregar +</button>
+                   <button className="btn-agregar">Agregar</button>
                    </div>
                     </div>
                   </div>
-              )} 
+              )}  
+              
+            </div>
               </div> 
-          <Link className="btn-enviar" to="/preparacion">Enviar pedido</Link>
     </section>
   );
 }
